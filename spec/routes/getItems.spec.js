@@ -6,6 +6,7 @@ jest.mock('../../src/persistence', () => ({
     getItems: jest.fn(),
 }));
 
+
 test('it gets items correctly', async () => {
     const req = {};
     const res = { send: jest.fn() };
